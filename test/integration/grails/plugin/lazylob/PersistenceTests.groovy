@@ -1,14 +1,14 @@
 package grails.plugin.lazylob
 
-import org.hibernate.Hibernate;
+import org.hibernate.Hibernate
 
 class PersistenceTests extends GroovyTestCase {
 
 	def sessionFactory
 
 	private String content = 'testing, testing'
-	private bytes = content.bytes
-	private name = 'the lob'
+	private byte[] bytes = content.bytes
+	private String name = 'the lob'
 
 	void testBlobFromBytes() {
 		def b = new Blobber(name: name)

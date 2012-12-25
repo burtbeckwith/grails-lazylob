@@ -73,6 +73,7 @@
 		<delete dir='grails-app/utils'/>
 		<delete dir='grails-app/views'/>
 		<delete dir='lib'/>
+		<delete dir='scripts'/>
 		<delete dir='test/unit'/>
 		<delete dir='web-app'/>
 	</target>
